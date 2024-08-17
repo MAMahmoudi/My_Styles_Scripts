@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.Chapter_Title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  top: 0;
+}
+
+.Section_Title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Subsection_Title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.Code {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+}
+
+.Definition {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+}
+
+table th {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+table td {
+  font-size: 20px;
+  color: #000;
+  padding: 10px;
+  border: 1px solid #000;
+}

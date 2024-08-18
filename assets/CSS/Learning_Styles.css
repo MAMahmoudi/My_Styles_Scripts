@@ -1,7 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/century-schoolbook");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro";
+  background-color: #e5e1de;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -11,6 +20,7 @@ main {
 }
 
 .Chapter_Title {
+  color: #8c1515;
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -23,6 +33,7 @@ main {
 }
 
 .Section_Title {
+  color: #8c1515;
   font-size: 25px;
   font-weight: bold;
   color: #000;
@@ -31,6 +42,7 @@ main {
 }
 
 .Subsection_Title {
+  color: #8c1515;
   font-size: 20px;
   font-weight: bold;
   color: #000;
@@ -53,6 +65,14 @@ main {
 }
 
 .Definition {
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  //max-height: 80vh;
+  text-align: justify;
+  background-color: white;
+  border: 3px solid green;
   font-size: 20px;
   font-weight: bold;
   color: #000;
@@ -61,8 +81,7 @@ main {
   margin-left: 20px;
   margin-right: 20px;
   padding: 10px;
-  border: 1px solid #000;
-  background-color: #f0f0f0;
+  background-color: #white;
 }
 
 table {
